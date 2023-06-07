@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+  
+
+:root {
+    /* Cores de fundo (Background) /
+    --background-page: #FFF9E7;
+    --background-nav: #3A53E3;
+    --background-sobre: #F8CD53;
+    --background-footer: #29282B;
+
+
+    / Cores de fonte /
+    --cor-fonte-padrao: #000000;
+    --cor-fonte-nav: #FFFFFF;
+    --cor-fonte-by: orange;
+    --cor-fonte-button-hover: yellow;
+
+
+    / Fontes da pagina /
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+    / Coree de Efeito */
+    --cor-sombra: #C0C0C0;
+    --cor-sombra-hover: #6b6bb4;
+    --cor-button-hover: #6e6eb1;
+    --cor-placeholder-effect: #7575be;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var('Inter');
+    color: var(--cor--fonte--padrao);
+    background-color: var(--backgorun-page);
+}
+
+p{
+    margin-bottom: 1.5rem;
+    font-size: 1.10rem;
+}
+
+h1,h2,h3, a{
+    letter-spacing: 3px;
+    font-weight: 800;
+}
