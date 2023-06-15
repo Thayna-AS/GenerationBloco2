@@ -13,18 +13,18 @@ main {
 }
 
 p {
-    color:black;
+    color:#1e272e;
     margin-bottom: 1.5rem;
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-    background-color: rgb(14, 8, 3);
+    background-color: #535c68;
 }
 
 .logo{
-
+    
     color: grey;
     display: flex;
     width: 100%;
@@ -33,12 +33,52 @@ body{
     align-items: center;
 }
 
-.titulo{
 
+#menu li{
+
+    display: inline;
+    padding: 20px;
+}
+
+ul {
+
+    height: 60px;
+    width: 2000px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#353b48;
+}
+
+#menu li a{
+    
+
+    text-decoration: none;
     color: grey;
-    font-size: 30px;
+    
+}
+
+.barra_central {
+    
+    background-color: #1e272e;
+    justify-content: center;
+}
+
+.alinhando{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+   color: #1e272e;
+}
+
+.titulo{
+    
+    font-size: 40px;
     font-family: 'Playfair';
-    align-items: center;
+
 }
 
 .foto{
@@ -47,11 +87,11 @@ body{
     border-style: inset;
     width: 220px; 
     height: 220px;
-    align-items: left;
+    
 }
 
 h1{
-    color: grey;
+    color: #1e272e;
     text-align: center;
     font: size 30px;
     font-family: 'Playfair';
@@ -59,7 +99,7 @@ h1{
 
 h2{
     text-align: center;
-    color: grey;
+    color: #1e272e;
 }
 
 #video{
@@ -68,22 +108,15 @@ h2{
     width: 500px;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    list-style: none;
-    color: grey;
-}
 
 .container{
    display: flex;
    flex-flow: row;
    justify-content: center;
    align-items: center;
-   margin-inline: 60px;
-   border-radius:3%;
-   background-color: lightgray;
+   margin-inline: 50px;
+   border-style: double;
+   background-color: #808e9b;
 }
 
 
@@ -98,15 +131,16 @@ ul {
 
 footer {
     
-    width: 80vw;
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 0;
     display: flex;
 
+    background-color: #353b48;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -135,6 +169,7 @@ footer {
     color:grey;
     width: 50vw;
     font-family: 'Playfair';
+    
 }
 
 
@@ -162,22 +197,28 @@ button {
     padding: 0.5rem 1rem;
     border-radius: 0.75rem;
     font-size: 1.25rem;
+    
 }
 
 
 input,
 textarea {
+
  color: black;
+
 }
 
 input::placeholder,
 textarea::placeholder {
+
     color: rgb(8, 8, 7);
+    
 }
 
 
 input:focus,
 textarea:focus {
+
     outline: 1px solid red; 
 }
 
@@ -187,6 +228,8 @@ button {
     font-family: 'Playfair';
     cursor: pointer;
     border: 2px solid;
+    
+
 }
 
 
@@ -195,6 +238,7 @@ button:hover {
     border-style: double;
     background-color: black;
     color:grey
+
 }
 
 
@@ -213,3 +257,4 @@ button:hover {
     font-size: 1rem;
     padding: 0.25rem 0;
 }
+
